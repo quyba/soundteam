@@ -3,7 +3,7 @@ lock '3.4.0'
 
 set :application, 'soundteam.com.co'
 set :repo_url, 'git@github.com:quyba/soundteam.git'
-
+set :deploy_user, 'deploy'
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 

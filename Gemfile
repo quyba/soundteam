@@ -41,6 +41,8 @@ gem 'capistrano-rvm', github: "capistrano/rvm"
 
 gem 'capistrano-bundler'
 
+gem 'rvm1-capistrano3'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

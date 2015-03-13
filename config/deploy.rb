@@ -92,6 +92,11 @@ set(:symlinks, [
 # is worth reading for a quick overview of what tasks are called
 # and when for `cap stage deploy`
 
+
+
+set :rvm_ruby_string, :local              # use the same ruby as used locally for deployment
+set :rvm_autolibs_flag, "read-only"       # more info: rvm help autolibs
+
 namespace :deploy do
 
 # make sure we're deploying what we think we're deploying

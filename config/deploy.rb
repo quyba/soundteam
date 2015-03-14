@@ -91,10 +91,7 @@ set(:symlinks, [
 # http://www.capistranorb.com/documentation/getting-started/flow/
 # is worth reading for a quick overview of what tasks are called
 # and when for `cap stage deploy`
-set :default_environment, {
-  'GEM_HOME'     => '/usr/local/rvm/gems/ruby-2.1.3',
-  'GEM_PATH'     => '/usr/local/rvm/gems/ruby-2.1.3:/usr/local/rvm/gems/ruby-2.1.3@global'
-}
+
 namespace :deploy do
 
 # make sure we're deploying what we think we're deploying
